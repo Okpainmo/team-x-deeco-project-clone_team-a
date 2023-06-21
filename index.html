@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>E-commerce</title>
+</head>
+<body>
+
+<div class="container">
+    <nav class="header-nav">
+        <section class="">
+            <button type="button" class="">connect wallet</button>
+            <div class="">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd"></path> -->
+                </svg>
+            </div>
+        </section>
+        <section class="">
+            <a href="/admin">
+                <div class="">create a store</div>
+            </a>
+            <a class="" href="/cart">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-6"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg> -->
+                <div class="cart-counter text-[13px] top-[-10px] left-[18px] font-bold cart-counter-bg w-[25px] h-[25px] rounded-full text--colors_default-invert absolute text-center pt-[3px]">0</div>
+            </a>
+        </section>
+    </nav>
+  <div class="navbar">
+    
+    <nav id="MenuItems">
+        <div class="logo-text">
+        <a href="index.html">
+            <div class="text">deeco.</div>
+        </a>
+        </div>
+        <ul>
+            <li><a href="index.html">All Products</a></li>
+            <li><a href="product.html">Today's Deal</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Accesories</a></li>
+            <li><a href="account.html">Deeco Fashion</a></li>
+            <li><a href="account.html">Home and Kitchen</a></li>
+        </ul>
+        <div class="sv-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="svg" viewBox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path></svg>
+        </div>
+    </div>
+    </div>
+</div>
+    
+
+<div class="small-container">
+  <div class="row row-2">
+    <h2>All Products</h2>
+    <select>
+      <option value="">Default Shorting</option>
+      <option value="">Short by price</option>
+      <option value="">Short by popularity</option>
+      <option value="">Short by rating</option>
+      <option value="">Short by sale</option>
+    </select>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="https://i.ibb.co/47Sk9QL/product-1.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+      <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>
+      <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+
+    <div class="col-4">
+      <img src="https://i.ibb.co/b7ZVzYr/product-2.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+      <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>
+    <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+
+    <div class="col-4">
+      <img src="https://i.ibb.co/KsMVr26/product-3.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>      <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>
+    <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <img src="https://i.ibb.co/47Sk9QL/product-1.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+ <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+            <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>
+      <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+    <div class="col-4">
+      <img src="https://i.ibb.co/KsMVr26/product-3.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+ <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       
+      </div>
+      <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>      <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+
+    <div class="col-4">
+      <img src="https://i.ibb.co/0cMfpcr/product-4.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+       <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>
+      <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <img src="https://i.ibb.co/bQ5t8bR/product-5.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+ <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+          <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>   
+      <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+
+    <div class="col-4">
+      <img src="https://i.ibb.co/vVpTyBD/product-6.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+    <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       
+
+      </div>
+
+      <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>
+      <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+    <div class="col-4">
+      <img src="https://i.ibb.co/hR5FGwH/product-7.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+      <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       
+
+      </div>
+        <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>
+      <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <img class="images"  src="https://i.ibb.co/nw5xZwk/product-9.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+       <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       
+
+      </div>
+    <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>
+      <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p> 
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+
+    <div class="col-4">
+      <img class="images" src="https://i.ibb.co/9HCsmjf/product-10.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+       <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       
+
+      </div>
+    <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>      
+      <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+
+    <div class="col-4">
+      <img class="images" src="https://i.ibb.co/JQ2MBHR/product-11.jpg" alt="" />
+      <h4>Red Printed T-shirt</h4>
+       <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       
+
+      </div>
+      <div class="product-text">
+        <h1 class="product-text-head" >
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Lapt...
+        </h1>
+      </div>
+      <p>₹500.00</p>
+      <p class="text-paragraph">1.099 MAT</p>
+      <button class="addtocart">
+            <div class="pretext">
+                <p class="pretex-content">Add to Cart</p> 
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+    </div>
+  </div>
+  <div class="product-button">
+    <button class="addtocart product-button-2">
+            <div class="pretext product-button-cart">
+                <h5>Add to Cart</h5>
+            </div>
+            
+            <div class="pretext done">
+                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+            </div>         
+    </button>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <div class="logo-text footer-text">
+                <a href="index.html">
+                    <div class="text">deeco.</div>
+                </a>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quas laborum pariatur distinctio, amet illo repellat dolor porro dolorem natus in quasi delectus tempore itaque asperiores rem facilis ratione ipsum.</p>
+        <div class="app-logo">
+            <ul class="icon-list">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-youtube-play"></a></li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="footer-col-2">
+        <div class="footer-heading-text">
+        <h4>Services</h4>
+        <ul class="footer-list">
+            <li>Crypto</li>
+            <li>Forex</li>
+            <li>Stocks</li>
+            <li>Exchange</li>
+        </ul>
+        </div>
+      </div>
+      <div class="footer-col-3">
+        <div class="footer-heading-text">
+        <h4>Help</h4>
+        <ul class="footer-list">
+            <li>FAQs</li>
+            <li>Security</li>
+            <li>Contact us</li>
+        </ul>
+        </div>
+      </div>
+          <div class="footer-col-3">
+        <div class="footer-heading-text">
+        <h4>Transparency</h4>
+        <ul class="footer-list">
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Cookie Policy</li>
+        </ul>
+        </div>
+      </div>
+
+
+      <div class="footer-col-3">
+        <div class="footer-heading-text">
+        <h4>Services</h4>
+        <ul class="footer-list">
+            <li>Crypto</li>
+            <li>Forex</li>
+            <li>Stocks</li>
+            <li>Exchange</li>
+        </ul>
+        </div>
+      </div>
+
+
+<div class="footer-second">
+    <div class="footer-col-3">
+        <div class="footer-heading-text">
+        <h4>Services</h4>
+        <ul class="footer-list">
+            <li>Crypto</li>
+            <li>Forex</li>
+            <li>Stocks</li>
+            <li>Exchange</li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="footer-col-4">
+        <div class="footer-heading-text">
+        <h4>Services</h4>
+        <ul class="footer-list">
+            <li>Crypto</li>
+            <li>Forex</li>
+            <li>Stocks</li>
+            <li>Exchange</li>
+        </ul>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+    <hr />
+    <p class="copyright">Copyright &copy; 2021 - Red Store</p>
+  </div>
+</div>
+
+<!-- js for toggle menu -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
