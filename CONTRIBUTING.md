@@ -35,7 +35,6 @@ Commits on this project are to be well structured. The following rules must be f
 - feat: for commits that involve the implementation of a new feature.
 
 2. Commit messages should follow this pattern.
-
 “commit-type: commit message” - e.g.
 
 > “feat: I added the light/dark theme toggle functionality”.

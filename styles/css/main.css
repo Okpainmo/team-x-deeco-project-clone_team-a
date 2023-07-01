@@ -17,6 +17,10 @@ body{
 /*........header section...........*/
 .top-nav-container{
   background-color: rgb(139, 139, 204);
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 .top-nav{
@@ -30,7 +34,7 @@ body{
   display: flex;
 }
 
-.top-nav-btn{
+.top-nav-btn button{
   background-color: rgb(184, 100, 184);
   border-radius: 5px;
   border: none;
@@ -46,15 +50,16 @@ body{
 }
 
 .top-bar-store{
-  display: flex;
   align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding-inline-end: 20px;
 }
 
 .top-bar-store i{
   color: rgb(234, 228, 228);
-  margin-right: 10px;
+  margin-right: 10px
 }
-
 
 .deeco_logo{
   font-size: 1rem;
@@ -75,14 +80,14 @@ body{
   display: flex;
   padding: 4rem;
   align-items: center;
-}
+  }
 
 .row ul li{
   list-style: none;
   padding: 10px;
 }
 
-.row.left-nav{
+.row .left-nav{
   display: flex;
   align-items: center;
 }
