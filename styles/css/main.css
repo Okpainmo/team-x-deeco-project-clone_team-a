@@ -12,22 +12,21 @@ body{
 .row{
   max-width: 90%;
   margin: 0 auto;
+  /* border: 2px solid red; */
 }
 
 /*........header section...........*/
-/*.top-nav-container{
-  background-color: rgb(139, 139, 204);
-  /*border: solid red;
-  margin-top: 70px;
-  }
-  */
-  
+
+.top-nav-container{
+  background-color: purple;
+  /* padding: 10px 0; */
+}
 
 
 .top-nav{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(175, 175, 199);
+  background-color:purple;
   padding: 10px 0;
 }
 
@@ -36,78 +35,64 @@ body{
 }
 
 .top-nav-btn button{
-  background-color: rgb(184, 100, 184);
-  border-radius: 5px;
+  background-color: yellowgreen;
   border: none;
-  color: white;
   padding: 0.8rem 2rem;
+  color: white;
   font-weight: bold;
+  border-radius: 5px;
   margin-right: 1.2rem;
 }
 
 .top-nav-btn i{
-  border: solid 2px red;
-  color: rgb(238, 232, 232);
+  color: white;
   font-size: 1.3rem;
 }
 
-.top-bar-store{
+.top-nav-cart{
+  display: flex;
   align-items: center;
-  display: flex;
-  justify-content: space-between;
 }
 
-.top-bar-store i{
-  color: rgb(234, 228, 228);
-  margin-right: 10px
+.top-nav-cart a{
+  color: white;
+  margin-right: 10px;
 }
 
-.top-var-wrapper{
-    background-color: rgb(139, 139, 204);
-    /*border: solid red;*/
-    margin-top: 70px;
+
+
+
+
+
+
+
+nav{
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding: 0.8rem 0;
 }
 
 .deeco_logo{
-  font-size: 1.8rem;
+  font-size: 1rem;
   border: 3px solid black;
-  font-weight: bold;
+  font-size: bold;
   display: inline;
-  padding: 0 0.5rem;
-
+  padding: 0 0.8rem;
 }
 
-.row{
+nav ul{
   display: flex;
+  padding-left: 4rem;
   align-items: center;
-  justify-content: space-between;
-  background-color: aqua;
-  color: azure;
-  background-color:purple;
 }
 
-  /*padding: 0.8rem 0;
-  border: solid 2px red;
-  background-color: #0a101d; */
-
-
-.row ul{
-  display: flex;
-  padding: 4rem;
-  align-items: center;
-  inline-size: auto;
-  }
-
-.row ul li{
+nav ul li{
   list-style: none;
   padding: 10px;
 }
 
-.row .left-nav{
+nav.left-nav{
   display: flex;
-  align-items: center;
+  align-items: center
 }
-
-
