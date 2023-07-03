@@ -35,7 +35,7 @@ body{
 }
 
 .top-nav-btn button{
-  background-color: yellowgreen;
+  background-color: #5656d3;
   border: none;
   padding: 0.8rem 2rem;
   color: white;
@@ -59,8 +59,12 @@ body{
   margin-right: 10px;
 }
 
-
-
+.row ul{
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 450px;
+}
 
 
 
