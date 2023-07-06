@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+.row{
+  max-width: 90%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
+/*........header section...........*/
+
+.top-nav-container{
+  background-color: purple;
+  /* padding: 10px 0; */
+}
+
+
+.top-nav{
+  display: flex;
+  justify-content: space-between;
+  background-color:purple;
+  padding: 10px 0;
+}
+
+.top-nav-btn{
+  display: flex;
+}
+
+.top-nav-btn button{
+  background-color: #5656d3;
+  border: none;
+  padding: 0.8rem 2rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 1.2rem;
+}
+
+.top-nav-btn i{
+  color: white;
+  font-size: 1.3rem;
+}
+
+.top-nav-cart{
+  display: flex;
+  align-items: center;
+}
+
+.top-nav-cart a{
+  color: white;
+  margin-right: 10px;
+}
+
+.row ul{
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 450px;
+}
+
+
+
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+}
+
+.deeco_logo{
+  font-size: 1rem;
+  border: 3px solid black;
+  font-size: bold;
+  display: inline;
+  padding: 0 0.8rem;
+}
+
+nav ul{
+  display: flex;
+  padding-left: 4rem;
+  align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+  padding: 10px;
+}
+
+nav.left-nav{
+  display: flex;
+  align-items: center
+}
